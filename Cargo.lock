@@ -525,9 +525,9 @@ dependencies = [
 
 [[package]]
 name = "borsh"
-version = "1.5.7"
+version = "1.6.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "ad8646f98db542e39fc66e68a20b2144f6a732636df7c2354e74645faaa433ce"
+checksum = "d1da5ab77c1437701eeff7c88d968729e7766172279eab0676857b3d63af7a6f"
 dependencies = [
  "cfg_aliases",
 ]
@@ -673,9 +673,9 @@ checksum = "1fd0f2584146f6f2ef48085050886acf353beff7305ebd1ae69500e27c67f64b"
 
 [[package]]
 name = "bytes"
-version = "1.5.0"
+version = "1.11.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "a2bd12c1caf447e69cd4528f47f94d203fd2582878ecb9e9465484c4148a8223"
+checksum = "1e748733b7cbc798e1434b6ac524f0c1ff2ab456fe201501e6497c8417a4fc33"
 
 [[package]]
 name = "bzip2"
@@ -2092,7 +2092,7 @@ name = "mpl-project-name"
 version = "0.1.0"
 dependencies = [
  "assert_matches",
- "borsh 1.5.7",
+ "borsh 1.6.0",
  "num-derive 0.3.3",
  "num-traits",
  "serde",
@@ -2107,7 +2107,7 @@ dependencies = [
 name = "mpl-project-name-program"
 version = "0.1.0"
 dependencies = [
- "borsh 1.5.7",
+ "borsh 1.6.0",
  "num-derive 0.4.1",
  "num-traits",
  "shank",
